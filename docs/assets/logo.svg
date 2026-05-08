@@ -1,0 +1,31 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="80" height="80" rx="20" fill="url(#bg)"/>
+
+  <!-- Three nodes representing agents -->
+  <circle cx="20" cy="40" r="7" fill="white" fill-opacity="0.95"/>
+  <circle cx="40" cy="22" r="7" fill="white" fill-opacity="0.85"/>
+  <circle cx="40" cy="58" r="7" fill="white" fill-opacity="0.85"/>
+  <circle cx="62" cy="40" r="8" fill="white" fill-opacity="1"/>
+
+  <!-- Connection lines -->
+  <line x1="27" y1="37" x2="34" y2="26" stroke="white" stroke-width="1.8" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="27" y1="43" x2="34" y2="54" stroke="white" stroke-width="1.8" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="47" y1="25" x2="55" y2="36" stroke="white" stroke-width="1.8" stroke-opacity="0.6" stroke-linecap="round"/>
+  <line x1="47" y1="55" x2="55" y2="44" stroke="white" stroke-width="1.8" stroke-opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Right node inner check / person icon -->
+  <circle cx="62" cy="37" r="2.5" fill="#8b5cf6"/>
+  <path d="M57 45 Q62 41 67 45" stroke="#8b5cf6" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>
